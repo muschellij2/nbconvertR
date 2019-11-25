@@ -7,6 +7,9 @@ addons:
   apt:
     packages:
     - pandoc
-    - jupyter
-    - jupyter-nbconvert
+
+before_install:
+  - python3 -m pip install jupyter
+  - python3 -m pip install jupyter-nbconvert
+
     

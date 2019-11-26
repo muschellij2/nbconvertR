@@ -16,8 +16,8 @@ before_install:
   - python3 -m pip install --user nbconvert
   - R CMD INSTALL .
 
-before_script: 
-  - sudo tlmgr install tcolorbox
+# before_script: 
+#   - sudo tlmgr install tcolorbox
 
 
     

@@ -3,6 +3,8 @@
 language: R
 cache: packages
 
+latex: true
+
 addons:
   apt:
     packages:
@@ -13,6 +15,8 @@ before_install:
   - python3 -m pip install --user jupyter
   - python3 -m pip install --user nbconvert
   - R CMD INSTALL .
+
+before_script: 
   - sudo tlmgr install tcolorbox
 
 

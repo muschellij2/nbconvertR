@@ -13,5 +13,7 @@ before_install:
   - python3 -m pip install --user jupyter
   - python3 -m pip install --user nbconvert
   - R CMD INSTALL .
+  - sudo tlmgr install tcolorbox
+
 
     

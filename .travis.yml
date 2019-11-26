@@ -12,5 +12,6 @@ before_install:
   - sudo python3 -m pip || wget -qO- https://bootstrap.pypa.io/get-pip.py | sudo python3
   - python3 -m pip install --user jupyter
   - python3 -m pip install --user nbconvert
+  - R CMD INSTALL .
 
     
